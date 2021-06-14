@@ -1,7 +1,7 @@
 require 'json'
 require 'sinatra'
 
-get '/tasks' do
+get '/' do
   JSON.generate([id: 1234, title: 'Some task'])
 end
 

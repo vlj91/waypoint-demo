@@ -1,7 +1,7 @@
 require 'json'
 require 'sinatra'
 
-get '/users' do
+get '/' do
   JSON.generate([{first_name: 'Barney', last_name: 'Rubble'}])
 end
 
